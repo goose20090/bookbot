@@ -3,9 +3,9 @@ def main():
     book_text = get_book_text(frankenstein_path)
     word_count = count_words(book_text)
     char_count = count_characters(book_text)
-    print(book_text)
-    print(word_count)
-    print(char_count)
+    print("--- Begin report of books/frankenstein.txt ---")
+    print(f"{word_count} words found in the document")
+
 
 
 def count_words(text):
